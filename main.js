@@ -131,9 +131,9 @@ if (index < 5) {
 
 
 
-
+/*
 //5. Запитатись у користувача 3 значне число та сказати чи є у ньому однакові цифри 
-
+alert("task NUMBER");
 let number = +prompt("Введіть тризначне число:");
 if ( number > 99 && number < 1000 ) {
     let first = (number - (number % 100)) / 100;//1 цифра
@@ -149,10 +149,7 @@ if ( number > 99 && number < 1000 ) {
     alert(`   Ви ввели число неправильно`);
 }
 
-
-
-
-
+*/
 
 
 
@@ -161,4 +158,33 @@ if ( number > 99 && number < 1000 ) {
 
 
 //6. Запитатись у юзера одну кнопоку від 1 до = на клавіатурі та вивести що буде при нажиманні цифри разом з шифтом.
+alert("task BUTTONS");
+let userButton = prompt("Натисніть кнопку на клавіатурі від 1 до = ");
+
+    switch(userButton) {
+        case "1" : alert("!");
+            break;
+        case "2" : alert("@");
+            break;
+        case "3": alert("#");
+            break;
+        case "4" : alert("$");
+            break;
+        case "5" : alert("%");
+            break;
+        case "6" : alert("^");
+            break;
+        case "7" : alert("&");
+            break;
+        case "8" : alert("*");
+            break;
+        case "9" : alert("(");
+            break;
+        case "0" : alert(")");
+            break;
+        case "-" : alert("_");
+            break;
+        case "=" : alert("+");
+            break;
+    }
     
